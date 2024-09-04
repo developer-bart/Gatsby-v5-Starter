@@ -38,13 +38,6 @@ const Seo = ({ title, description, lang = 'nl' }: IProps) => {
         name="twitter:description"
         content={description ?? defaultDescription}
       />
-
-      {/* Load fonts */}
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"
-      />
     </>
   )
 }
