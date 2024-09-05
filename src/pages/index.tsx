@@ -59,7 +59,6 @@ const ContentWrapper = styled(ContentWrapperComponent)`
     flex-direction: column;
     align-items: flex-start;
     display: flex;
-    margin: 56px auto 0;
     color: ${theme.colors.white};
 
     @media (min-width: ${theme.sizes.M}px) {

@@ -1,15 +1,29 @@
 import React from 'react'
+import styled from 'styled-components'
+import { Link } from 'gatsby'
+
+// Styling
+import textStyles from '../styles/textStyles'
 
 // Components
-import Seo from '../components/Seo'
+import SEO from '../components/Seo'
+import ContentWrapper from '../components/ContentWrapper'
 
-const NotFoundPage: React.FC = () => (
+const NotFoundPage = () => (
   <>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <SEO title="404: Not found" />
+    <ContentWrapper size="text">
+      <Title>Pagina niet gevonden</Title>
+      <p>Sorry, deze pagina is niet (meer) beschikbaar...</p>
+      <p>
+        Ga terug naar de <Link to="/">homepage</Link>.
+      </p>
+    </ContentWrapper>
   </>
 )
 
-export const Head = () => <Seo title="404" />
+const Title = styled.h1`
+  ${textStyles.pageTitle};
+`
 
 export default NotFoundPage

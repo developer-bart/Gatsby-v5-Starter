@@ -32,6 +32,11 @@ const Wrapper = styled.div`
   ${({ theme }) => css`
     color: ${theme.colors.astronaut};
     font-family: ${theme.fonts.primary};
+    padding-top: 56px;
+
+    @media (min-width: ${theme.sizes.M}) {
+      padding-top: 64px;
+    }
 
     a {
       position: relative;

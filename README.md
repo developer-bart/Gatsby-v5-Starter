@@ -1,22 +1,20 @@
-# Gatsby v4 Starter
+# Naar een Beter Evenwicht.
 
-This is a starter project based on Gatsby v4. It includes Typescript, ESLint, Prettier, Husky, Styled Components (theming), React Helmet (Seo component), consistent layout, sitemap & manifest by default.
+This is a starter project based on Gatsby v5. It includes Typescript, ESLint, Prettier, Husky, Styled Components (theming), React Helmet (Seo component), consistent layout, sitemap & manifest by default.
 
 ## 🚀 Quick start
 
-1.  **Clone the project**
-
-    ```shell
-    git clone git@github.com:developer-bart/Gatsby-v4-Starter.git
-    ```
-
-2.  **Node version**
+1.  **Node version**
 
     _Make sure you have [nvm](https://nvm.sh) installed._
 
     ```shell
     nvm use
     ```
+
+2.  **ENV vars**
+
+    Copy `.env` to `.env.development` and add all required values.
 
 3.  **Install & start**
 
